@@ -1,0 +1,79 @@
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+footer{
+    
+   
+    
+    clear: both;
+    margin: 0 auto;
+    display: inline-block;
+   
+    
+}
+
+footer p{
+    text-align: end;
+    color: blue;
+    font-size: 100%;
+    margin-top: 50px;
+}
+
+.main{
+    flex: 1;
+}
+
+.title{
+    color: rgb(30, 30, 175);
+}
+
+.tile{
+    height: 300px;
+    margin-right: 50px;
+    float: left;
+    border: 1px solid white;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.card{
+    width: 45%;
+}
+
+@media (max-width: 600px){
+    .card{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    .card img{
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+}
